@@ -2,7 +2,7 @@
 
 A multi-agent system designed to mitigate hallucination and enhance information accuracy in complex Multi-Hop Question Answering (QA) tasks, leveraging LangGraph and the OpenAI API with a dynamic correction feedback loop.
 
-## 📌 Abstract (Project Overview)
+## 📌 Abstract (Thesis Overview)
 Large Language Models (LLMs) often struggle with information retrieval failures and hallucinations in multi-hop QA that requires complex reasoning across multiple documents. While the ReAct framework addresses some of these issues, its linear execution structure propagates initial retrieval errors to subsequent steps without correction, leading to final answer failures. Furthermore, the lack of a self-verification mechanism degrades system robustness. 
 
 To overcome this, we propose a **multi-agent scheme equipped with a Self-Verification mechanism**. Five specialized agents (Planner, Reasoner, Searcher, Extractor, and Answer) collaborate and evaluate the reliability of collected information during the self-verification phase. Through a **dynamic correction feedback loop (cyclic graph structure)** that either proceeds with reasoning or modifies the search strategy based on verification results, errors are proactively blocked, enhancing the capacity for accurate answer generation. 
