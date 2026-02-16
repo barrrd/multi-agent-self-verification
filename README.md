@@ -33,6 +33,7 @@ The Reasoner evaluates the **logical sufficiency** of evidence immediately after
 Triggered by structural information voids or planning errors, this loop utilizes LangGraph's cyclic structure.
 
 ![Dynamic Feedback Loop](./image/Dynamic%20Feedback%20Loop.png)
+
 *Figure 2. Dynamic Correction Feedback Loop between Planner and Reasoner.*
 
 **Correction Triggers:**
